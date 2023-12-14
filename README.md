@@ -11,7 +11,7 @@
 
 
 ### ResNet (Deep Residual Learning for Image Recognition) 
-ResNet은 CNN Network이며 깊은 망을 더 쉽게 학습하기 위해 개발된 Network이다. 네트워크 깊이가 깊어질수록 성능이 좋아지다가 어느 시점에서 오히려 성능이 나빠지는데, 이러한 문제 해결을 위해 residual block을 도입했다. residual block은 기울기가 잘 전파될 수 있도록 하는 일종의 shortcut(skip connection)을 만들어 준다.
+ResNet은 CNN Network이며 깊은 망을 더 쉽게 학습하기 위해 개발된 Network다. 네트워크 깊이가 깊어질수록 성능이 좋아지다가 어느 시점에서 오히려 성능이 나빠지는데, 이러한 문제 해결을 위해 residual block을 도입했다. residual block은 기울기가 잘 전파될 수 있도록 하는 일종의 shortcut(skip connection)을 만들어 준다.
 본 프로젝트에서는 아래와 같은 architecture로 layer를 쌓은 ResNet50 구조를 만들어 학습에 활용하였다.
 ![image (1)](https://github.com/bvnohz/Classification_Fish-species/assets/141910199/06bf695c-29ed-4fd2-9660-32df2ecf26a3)
 
